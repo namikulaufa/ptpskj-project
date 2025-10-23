@@ -8,9 +8,7 @@ Dalam sistem otorisasi $t$-dari-$n$ (seperti dompet Multi-Signature), Server Kom
 
 ---
 
-## ⚙️ Prasyarat Teknis (*Prerequisites*)
-
-Kode ini adalah simulasi yang dibuat berdasarkan sintaks pustaka C++ **OpenFHE**. Untuk mengompilasi dan menjalankan kode secara fungsional, Anda harus memiliki lingkungan yang dikonfigurasi sebagai berikut:
+## Prequisites
 
 | Prasyarat | Keterangan |
 | :--- | :--- |
@@ -21,7 +19,7 @@ Kode ini adalah simulasi yang dibuat berdasarkan sintaks pustaka C++ **OpenFHE**
 
 ---
 
-## 💻 Struktur Kode dan Implementasi Kunci
+## Struktur Kode dan Implementasi Kunci
 
 Kode utama yang dianalisis adalah `threshold_fhe_module.cpp`.
 
@@ -44,7 +42,7 @@ Kode ini mensimulasikan otorisasi $t$-dari-$n$ melalui empat tahap utama:
 
 ---
 
-## ⚙️ Cara Menjalankan (*Compile* & *Run*)
+## Cara Menjalankan (*Compile* & *Run*)
 
 Asumsikan Anda berada di direktori proyek (`/Users/ptpskj-project`) dan pustaka **OpenFHE telah terinstal dengan benar** serta file `CMakeLists.txt` sudah tersedia.
 
